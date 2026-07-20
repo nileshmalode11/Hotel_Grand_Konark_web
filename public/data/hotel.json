@@ -1,0 +1,38 @@
+{
+  "name": "HOTEL GRAND KONARK ELLORA",
+  "tagline": "Luxury Stay Near the Legends of Ellora",
+  "description": "A refined retreat near Ellora Caves and Grishneshwar Temple, crafted for travelers seeking comfort, privacy, and heritage-inspired hospitality.",
+  "location": "Near Ellora Caves, Ellora, Aurangabad, Maharashtra, India",
+  "coordinates": {
+    "latitude": 20.0246,
+    "longitude": 75.1779
+  },
+  "contact": {
+    "phone": "+91 7030969695",
+    "email": "hotelgk9696@gmail.com",
+    "whatsapp": "+91 7030969695"
+  },
+  "hours": {
+    "checkin": "14:00",
+    "checkout": "11:00",
+    "reception": "24/7"
+  },
+  "founded": 2024,
+  "rooms": 20,
+  "floors": 3,
+  "amenities": [
+    "24/7 Room Service",
+    "WhatsApp & Call Booking",
+    "Free WiFi",
+    "Air-Conditioned Rooms",
+    "Parking Facility",
+    "Travel Desk",
+    "Heritage-Style Comfort",
+    "Family-Friendly Stay"
+  ],
+  "certifications": [
+    "Premium Stay",
+    "Heritage Hospitality",
+    "Guest-Focused Service"
+  ]
+}

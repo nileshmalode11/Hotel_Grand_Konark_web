@@ -1,0 +1,44 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Rajesh Sharma",
+      "title": "Business Traveler",
+      "rating": 5,
+      "text": "Exceptional service and attention to detail. The hospitality at Grand Konark Ellora exceeded all my expectations. The location is perfect for exploring the heritage sites.",
+      "image": "/images/testimonial-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Priya Desai",
+      "title": "Heritage Enthusiast",
+      "rating": 5,
+      "text": "A true luxury experience combined with cultural immersion. The staff's knowledge about local attractions was invaluable. Highly recommended for heritage travelers.",
+      "image": "/images/testimonial-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "title": "International Guest",
+      "rating": 5,
+      "text": "Outstanding! The blend of modern luxury and traditional charm is rare. Every detail was perfect, from the rooms to the dining experience.",
+      "image": "/images/testimonial-3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Anjali Patel",
+      "title": "Family Vacationer",
+      "rating": 5,
+      "text": "Perfect for families. The rooms are spacious, the amenities are great, and the staff is very child-friendly. We'll definitely return.",
+      "image": "/images/testimonial-4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "David Chen",
+      "title": "Adventure Seeker",
+      "rating": 5,
+      "text": "The concierge team helped us plan an amazing itinerary. The hotel's attention to guest experience is unmatched in this region.",
+      "image": "/images/testimonial-5.jpg"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Double Bed Room AC",
+      "description": "Comfortable twin-style stay for two guests with modern air-conditioning and premium essentials.",
+      "capacity": 2,
+      "size": "Standard Double Bed Room",
+      "features": [
+        "2 Bed Setup",
+        "Air Conditioning",
+        "Comfortable Bedding",
+        "Private Bathroom",
+        "WiFi Access",
+        "Room Service"
+      ],
+      "image": "/images/double-bed-ac.jpg",
+      "category": "double"
+    },
+    {
+      "id": 2,
+      "name": "Double Bed Room Non-AC",
+      "description": "Simple and elegant room for two guests with a peaceful stay experience.",
+      "capacity": 2,
+      "size": "Standard Double Bed Room",
+      "features": [
+        "2 Bed Setup",
+        "Non-AC Comfort",
+        "Basic Amenities",
+        "Private Bathroom",
+        "WiFi Access",
+        "Quiet Interior"
+      ],
+      "image": "/images/double-bed-non-ac.jpg",
+      "category": "double"
+    },
+    {
+      "id": 3,
+      "name": "Triple Bed Room AC",
+      "description": "Ideal for families who need extra comfort with three beds and modern facilities.",
+      "capacity": 3,
+      "size": "Triple Bed Room",
+      "features": [
+        "3 Bed Setup",
+        "Air Conditioning",
+        "Family Comfort",
+        "Private Bathroom",
+        "WiFi Access",
+        "Extra Space"
+      ],
+      "image": "/images/triple-bed-ac.jpg",
+      "category": "family"
+    },
+    {
+      "id": 4,
+      "name": "Luxury Double Bed Room AC",
+      "description": "Premium room with a luxurious finish for guests seeking a more refined stay.",
+      "capacity": 2,
+      "size": "Luxury Double Bed Room",
+      "features": [
+        "2 Bed Setup",
+        "Air Conditioning",
+        "Premium Interior",
+        "Private Bathroom",
+        "WiFi Access",
+        "Priority Comfort"
+      ],
+      "image": "/images/luxury-double-ac.jpg",
+      "category": "luxury"
+    },
+    {
+      "id": 5,
+      "name": "Four Bed Room AC",
+      "description": "Spacious family room designed for larger groups and extended stays.",
+      "capacity": 4,
+      "size": "Four Bed Room",
+      "features": [
+        "4 Bed Setup",
+        "Air Conditioning",
+        "Family-Friendly Layout",
+        "Private Bathroom",
+        "WiFi Access",
+        "Large Space"
+      ],
+      "image": "/images/four-bed-ac.jpg",
+      "category": "family"
+    },
+    {
+      "id": 6,
+      "name": "Four Bed Room Non-AC",
+      "description": "A practical and comfortable option for larger groups with shared comfort in mind.",
+      "capacity": 4,
+      "size": "Four Bed Room",
+      "features": [
+        "4 Bed Setup",
+        "Non-AC Comfort",
+        "Family Setup",
+        "Private Bathroom",
+        "WiFi Access",
+        "Value Stay"
+      ],
+      "image": "/images/four-bed-non-ac.jpg",
+      "category": "family"
+    }
+  ]
+}

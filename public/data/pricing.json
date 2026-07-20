@@ -1,0 +1,46 @@
+{
+  "pricing": [
+    {
+      "roomId": 1,
+      "roomName": "Double Bed Room AC",
+      "season": "standard",
+      "pricePerNight": 2200,
+      "currency": "INR"
+    },
+    {
+      "roomId": 2,
+      "roomName": "Double Bed Room Non-AC",
+      "season": "standard",
+      "pricePerNight": 1800,
+      "currency": "INR"
+    },
+    {
+      "roomId": 3,
+      "roomName": "Triple Bed Room AC",
+      "season": "standard",
+      "pricePerNight": 3200,
+      "currency": "INR"
+    },
+    {
+      "roomId": 4,
+      "roomName": "Luxury Double Bed Room AC",
+      "season": "standard",
+      "pricePerNight": 4200,
+      "currency": "INR"
+    },
+    {
+      "roomId": 5,
+      "roomName": "Four Bed Room AC",
+      "season": "standard",
+      "pricePerNight": 4800,
+      "currency": "INR"
+    },
+    {
+      "roomId": 6,
+      "roomName": "Four Bed Room Non-AC",
+      "season": "standard",
+      "pricePerNight": 3600,
+      "currency": "INR"
+    }
+  ]
+}

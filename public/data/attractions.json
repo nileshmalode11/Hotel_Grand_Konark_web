@@ -1,0 +1,254 @@
+{
+  "attractions": [
+    {
+      "id": 1,
+      "name": "Ellora Caves",
+      "description": "A UNESCO World Heritage Site with rock-cut caves and the majestic Kailasa Temple, just minutes away from the hotel.",
+      "distance": "Within 1 km",
+      "distanceKm": 1,
+      "image": "/attractions/ellora-caves.jpg",
+      "category": "Heritage",
+      "highlights": [
+        "Kailasa Temple",
+        "Buddhist, Hindu and Jain monuments",
+        "Historic rock-cut architecture",
+        "Excellent for photography and heritage walks"
+      ],
+      "bestTime": "October to February",
+      "timingsOpen": "09:00",
+      "timingsClose": "17:30",
+      "entryFee": "Entry fee varies by visitor category",
+      "nearbyPlaces": [
+        "Grishneshwar Temple",
+        "Bhadra Maruti Temple",
+        "Daultabad Fort"
+      ],
+      "slug": "ellora-caves"
+    },
+    {
+      "id": 2,
+      "name": "Grishneshwar Temple",
+      "description": "One of the 12 Jyotirlingas and a spiritually significant temple located very close to the hotel.",
+      "distance": "500m - 700m",
+      "distanceKm": 0.6,
+      "image": "/attractions/grishneshwar-temple.jpg",
+      "category": "Religious",
+      "highlights": [
+        "Jyotirlinga shrine",
+        "Sacred architecture",
+        "Ideal for morning visits",
+        "Strong spiritual ambience"
+      ],
+      "bestTime": "Year-round",
+      "timingsOpen": "05:00",
+      "timingsClose": "21:00",
+      "entryFee": "Free",
+      "nearbyPlaces": [
+        "Ellora Caves",
+        "Bhadra Maruti Temple",
+        "Vishwakarma Temple"
+      ],
+      "slug": "grishneshwar-temple"
+    },
+    {
+      "id": 3,
+      "name": "Bhadra Maruti Temple",
+      "description": "A revered temple destination known for its peaceful surroundings and religious charm.",
+      "distance": "4 km",
+      "distanceKm": 4,
+      "image": "/attractions/bhadra-maruti.jpg",
+      "category": "Religious",
+      "highlights": [
+        "Spiritual stopover",
+        "Calm temple atmosphere",
+        "Easy short trip from the hotel",
+        "Great for local cultural experience"
+      ],
+      "bestTime": "Year-round",
+      "timingsOpen": "06:00",
+      "timingsClose": "20:00",
+      "entryFee": "Free",
+      "nearbyPlaces": [
+        "Ellora Caves",
+        "Grishneshwar Temple",
+        "Daultabad Fort"
+      ],
+      "slug": "bhadra-maruti-temple"
+    },
+    {
+      "id": 4,
+      "name": "Daultabad Fort",
+      "description": "A remarkable hilltop fort with history, views, and a strong sense of old-world grandeur.",
+      "distance": "10 km",
+      "distanceKm": 10,
+      "image": "/attractions/daultabad-fort.jpg",
+      "category": "Historical",
+      "highlights": [
+        "Historic fort structure",
+        "Grand views",
+        "Great for sightseeing",
+        "Interesting for history lovers"
+      ],
+      "bestTime": "October to February",
+      "timingsOpen": "09:00",
+      "timingsClose": "17:30",
+      "entryFee": "Entry fee may vary",
+      "nearbyPlaces": [
+        "Ellora Caves",
+        "Bhadra Maruti Temple",
+        "Mahadeva Garden"
+      ],
+      "slug": "daultabad-fort"
+    },
+    {
+      "id": 5,
+      "name": "Vishwakarma Temple",
+      "description": "A compact and important local spiritual site located close to the hotel area.",
+      "distance": "500m",
+      "distanceKm": 0.5,
+      "image": "/attractions/vishwakarma-temple.jpg",
+      "category": "Religious",
+      "highlights": [
+        "Nearby temple visit",
+        "Local cultural relevance",
+        "Quiet surroundings",
+        "Easy access from the hotel"
+      ],
+      "bestTime": "Year-round",
+      "timingsOpen": "06:00",
+      "timingsClose": "20:00",
+      "entryFee": "Free",
+      "nearbyPlaces": [
+        "Grishneshwar Temple",
+        "Mahadeva Garden",
+        "108 Feet Mahadeva Pind"
+      ],
+      "slug": "vishwakarma-temple"
+    },
+    {
+      "id": 6,
+      "name": "108 Feet Mahadeva Pind",
+      "description": "A notable local landmark that adds to the cultural and spiritual experience of the region.",
+      "distance": "500m",
+      "distanceKm": 0.5,
+      "image": "/attractions/mahadeva-pind.jpg",
+      "category": "Cultural",
+      "highlights": [
+        "Local landmark",
+        "Cultural importance",
+        "Short visit from the hotel",
+        "Great for quick exploration"
+      ],
+      "bestTime": "Year-round",
+      "timingsOpen": "06:00",
+      "timingsClose": "20:00",
+      "entryFee": "Free",
+      "nearbyPlaces": [
+        "Vishwakarma Temple",
+        "Mahadeva Garden",
+        "Grishneshwar Temple"
+      ],
+      "slug": "108-feet-mahadeva-pind"
+    },
+    {
+      "id": 7,
+      "name": "Mahadeva Garden",
+      "description": "A serene garden space that offers a relaxing stop during your local explorations.",
+      "distance": "Within 1 km",
+      "distanceKm": 1,
+      "image": "/attractions/mahadeva-garden.jpg",
+      "category": "Nature",
+      "highlights": [
+        "Peaceful greenery",
+        "Relaxed atmosphere",
+        "Ideal for short breaks",
+        "Easy access from the hotel"
+      ],
+      "bestTime": "Year-round",
+      "timingsOpen": "06:00",
+      "timingsClose": "20:00",
+      "entryFee": "Free",
+      "nearbyPlaces": [
+        "Vishwakarma Temple",
+        "108 Feet Mahadeva Pind",
+        "Ellora Caves"
+      ],
+      "slug": "mahadeva-garden"
+    },
+    {
+      "id": 8,
+      "name": "Mhaismal",
+      "description": "A scenic and lesser-known destination offering beautiful nature and peaceful surroundings.",
+      "distance": "12 km",
+      "distanceKm": 12,
+      "image": "/attractions/mhaismal.jpg",
+      "category": "Nature",
+      "highlights": [
+        "Nature retreat",
+        "Scenic viewpoints",
+        "Good for day trips",
+        "Peaceful atmosphere"
+      ],
+      "bestTime": "October to March",
+      "timingsOpen": "06:00",
+      "timingsClose": "18:00",
+      "entryFee": "Free",
+      "nearbyPlaces": [
+        "Daultabad Fort",
+        "Ellora Caves",
+        "Balaji Temple"
+      ],
+      "slug": "mhaismal"
+    },
+    {
+      "id": 9,
+      "name": "Balaji Temple",
+      "description": "A popular spiritual destination for travelers seeking a calm and devotional visit.",
+      "distance": "12 km",
+      "distanceKm": 12,
+      "image": "/attractions/balaji-temple.jpg",
+      "category": "Religious",
+      "highlights": [
+        "Devotional destination",
+        "Quiet spiritual setting",
+        "Worth a visit for pilgrims",
+        "Easy day trip"
+      ],
+      "bestTime": "Year-round",
+      "timingsOpen": "06:00",
+      "timingsClose": "20:00",
+      "entryFee": "Free",
+      "nearbyPlaces": [
+        "Mhaismal",
+        "Ellora Caves",
+        "Daultabad Fort"
+      ],
+      "slug": "balaji-temple"
+    },
+    {
+      "id": 10,
+      "name": "Bibi Ka Makbara",
+      "description": "An impressive heritage monument often compared to the Taj Mahal and worth visiting during your stay.",
+      "distance": "30 km",
+      "distanceKm": 30,
+      "image": "/attractions/bibi-ka-makbara.jpg",
+      "category": "Historical",
+      "highlights": [
+        "Mughal architecture",
+        "Historic monument",
+        "Photogenic landmark",
+        "Worth a half-day visit"
+      ],
+      "bestTime": "October to February",
+      "timingsOpen": "08:30",
+      "timingsClose": "17:30",
+      "entryFee": "Entry fee may vary",
+      "nearbyPlaces": [
+        "Ellora Caves",
+        "Grishneshwar Temple",
+        "Daultabad Fort"
+      ],
+      "slug": "bibi-ka-makbara"
+    }
+  ]
+}
