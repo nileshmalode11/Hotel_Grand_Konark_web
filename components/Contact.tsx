@@ -11,6 +11,7 @@ interface ContactInfo {
     whatsapp: string;
   };
   location: string;
+  mapsUrl?: string;
 }
 
 interface ContactProps {
@@ -33,6 +34,7 @@ export default function Contact({ onBookNow }: ContactProps) {
       .then(data => setContactInfo({
         contact: data.contact,
         location: data.location,
+        mapsUrl: data.mapsUrl,
       }));
   }, []);
 
@@ -83,7 +85,7 @@ export default function Contact({ onBookNow }: ContactProps) {
               Contact Us
             </h2>
             <p className="text-lg text-luxury-ivory opacity-80 max-w-2xl mx-auto">
-              Have questions? We'd love to hear from you. Reach out anytime.
+              Have questions? We&apos;d love to hear from you. Reach out anytime.
             </p>
           </div>
 
@@ -154,22 +156,29 @@ export default function Contact({ onBookNow }: ContactProps) {
                 </div>
               </motion.a>
 
-              <motion.div
+              <motion.a
+                href={contactInfo.mapsUrl || '#'}
+                target="_blank"
+                rel="noopener noreferrer"
                 variants={itemVariants}
-                className="glass-effect p-6 rounded-lg flex items-start gap-4"
+                className="glass-effect p-6 rounded-lg hover:glass-effect-light transition-all group flex items-start gap-4"
+                whileHover={{ x: 10 }}
               >
-                <div className="text-2xl text-luxury-gold mt-1">
+                <div className="text-2xl text-luxury-gold group-hover:text-luxury-gold-light mt-1">
                   <FiMapPin />
                 </div>
                 <div>
-                  <p className="font-bold text-luxury-gold">
+                  <p className="font-bold text-luxury-gold group-hover:text-luxury-gold-light">
                     Location
                   </p>
                   <p className="text-luxury-ivory opacity-80">
                     {contactInfo.location}
                   </p>
+                  <p className="text-sm text-luxury-gold mt-2">
+                    Open in Google Maps
+                  </p>
                 </div>
-              </motion.div>
+              </motion.a>
             </motion.div>
 
             {/* Contact Form */}

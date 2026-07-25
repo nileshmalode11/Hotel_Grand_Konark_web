@@ -43,7 +43,7 @@ export default function Header({ onBookNow }: HeaderProps) {
             className="text-2xl md:text-3xl font-bold accent-text text-luxury-gold"
             whileHover={{ scale: 1.05 }}
           >
-            GRAND KONARK
+            HOTEL GRAND KONARK ELLORA
           </motion.h1>
         </Link>
 

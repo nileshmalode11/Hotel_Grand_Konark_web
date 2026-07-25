@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import { useParams } from 'next/navigation';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
@@ -23,6 +24,7 @@ interface Attraction {
   entryFee: string;
   nearbyPlaces: string[];
   slug: string;
+  galleryImages?: string[];
 }
 
 export default function AttractionPage({ params: { slug } }: { params: { slug: string } }) {
@@ -60,9 +62,17 @@ export default function AttractionPage({ params: { slug } }: { params: { slug: s
       <Header onBookNow={() => {}} />
 
       {/* Hero Section */}
-      <section className="relative h-96 mt-20 flex items-center justify-center bg-gradient-to-br from-luxury-gold to-luxury-gold-dark opacity-20">
+      <section className="relative h-96 mt-20 flex items-center justify-center overflow-hidden">
+        <Image
+          src={attraction.image || '/images/hotel-outer-view.jpeg'}
+          alt={attraction.name}
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-luxury-charcoal/90 via-luxury-charcoal/60 to-luxury-charcoal/90" />
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center">
+          <div className="text-center z-10">
             <p className="text-luxury-gold text-lg tracking-widest mb-2">EXPLORE</p>
             <h1 className="text-5xl md:text-6xl font-bold text-luxury-ivory">
               {attraction.name}
@@ -101,6 +111,21 @@ export default function AttractionPage({ params: { slug } }: { params: { slug: s
               <p className="text-lg text-luxury-ivory opacity-80 leading-relaxed mt-4">
                 Staying at Hotel Grand Konark Ellora makes it easy to plan a calm, heritage-rich day around this landmark with minimal travel and maximum comfort.
               </p>
+              {attraction.slug === 'kailasa-temple' && (
+                <p className="text-lg text-luxury-ivory opacity-80 leading-relaxed mt-4">
+                  The temple is widely regarded as one of the most remarkable rock-cut monuments in the world and is associated with the Rashtrakuta period, with its architecture drawing from earlier Pallava and Chalukya traditions.
+                </p>
+              )}
+              {attraction.slug === 'grishneshwar-temple' && (
+                <p className="text-lg text-luxury-ivory opacity-80 leading-relaxed mt-4">
+                  Ghrishneshwar is one of the twelve Jyotirlingas and remains an active pilgrimage destination known for its spiritual importance and annual festival crowds.
+                </p>
+              )}
+              {attraction.slug === 'bhadra-maruti-temple' && (
+                <p className="text-lg text-luxury-ivory opacity-80 leading-relaxed mt-4">
+                  The temple is especially loved for its reclining idol of Hanuman and its long-standing role as a local pilgrimage site in the Khuldabad region.
+                </p>
+              )}
             </motion.div>
 
             {/* Highlights */}
@@ -128,12 +153,12 @@ export default function AttractionPage({ params: { slug } }: { params: { slug: s
             >
               <h2 className="text-3xl font-bold text-luxury-gold mb-4">Photo Gallery</h2>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                {[1, 2, 3, 4, 5, 6].map((i) => (
+                {(attraction.galleryImages || [attraction.image]).slice(0, 6).map((image, i) => (
                   <div
-                    key={i}
-                    className="aspect-square glass-effect rounded-lg flex items-center justify-center hover:scale-105 transition-transform cursor-pointer border border-luxury-gold border-opacity-20"
+                    key={`${attraction.slug}-${i}`}
+                    className="aspect-square glass-effect rounded-lg overflow-hidden border border-luxury-gold border-opacity-20"
                   >
-                    <p className="text-luxury-gold opacity-60 text-center px-4">{attraction.name} — view {i}</p>
+                    <Image src={image} alt={`${attraction.name} view ${i + 1}`} fill className="object-cover" />
                   </div>
                 ))}
               </div>

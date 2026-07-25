@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
@@ -67,10 +68,14 @@ export default function AttractionGrid() {
                 >
                   {/* Image */}
                   <div className="relative h-48 bg-gradient-gold opacity-20 overflow-hidden">
+                    <Image
+                      src={attraction.image || '/images/hotel-outer-view.jpeg'}
+                      alt={attraction.name}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                    />
                     <div className="absolute inset-0 bg-gradient-to-t from-luxury-charcoal to-transparent z-10" />
-                    <p className="absolute inset-0 flex items-center justify-center text-luxury-gold opacity-40">
-                      {attraction.name}
-                    </p>
                   </div>
 
                   {/* Content */}

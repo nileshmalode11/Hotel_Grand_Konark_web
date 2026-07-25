@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Grand Konark Hotel Website
 
 Ultra-premium hotel website for HOTEL GRAND KONARK ELLORA - featuring luxury aesthetic, fully responsive design, and WhatsApp booking integration.
@@ -142,3 +143,6 @@ Update JSON files in `public/data/` to modify content without touching code.
 ## License
 
 © 2025 HOTEL GRAND KONARK ELLORA. All rights reserved.
+=======
+# Hotel_Grand_Konark_web
+>>>>>>> 1a3908e31d231ffd34bcf78fb87b0bedd91966b1

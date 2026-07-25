@@ -25,7 +25,6 @@ export const metadata: Metadata = {
   description: 'Experience luxury hospitality near Ellora Caves & Grishneshwar Temple in Aurangabad',
   keywords: 'luxury hotel, Aurangabad, Ellora Caves, Grishneshwar Temple, heritage tourism',
   authors: [{ name: 'Grand Konark Ellora' }],
-  viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
   openGraph: {
     type: 'website',
@@ -48,6 +47,11 @@ export const metadata: Metadata = {
     description: 'Experience luxury hospitality near Ellora Caves & Grishneshwar Temple',
     images: ['/images/twitter-image.jpg'],
   },
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 };
 
 export default function RootLayout({

@@ -16,12 +16,21 @@ export default function Hero({ onBookNow }: HeroProps) {
     >
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <div className="relative w-full h-full bg-gradient-to-br from-luxury-charcoal via-luxury-charcoal to-luxury-charcoal">
-          <div className="absolute inset-0 bg-gradient-gold opacity-30" />
+        <div className="relative w-full h-full bg-black">
+          <Image
+            src="/images/hotel-outer-view.jpeg"
+            alt="Hotel Grand Konark Ellora exterior"
+            fill
+            priority
+            className="object-cover opacity-90"
+          />
+          <div className="absolute inset-0 bg-black/30" />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/30 to-black/80" />
+          <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-black to-transparent opacity-80" />
           <motion.div
-            className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(212,175,55,0.2),rgba(0,0,0,0))]"
-            animate={{ y: [0, -50, 0] }}
-            transition={{ duration: 8, repeat: Infinity }}
+            className="absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_50%_10%,rgba(212,175,55,0.15),rgba(0,0,0,0.6))]"
+            animate={{ scale: [1, 1.02, 1] }}
+            transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
           />
         </div>
       </div>
@@ -32,22 +41,23 @@ export default function Hero({ onBookNow }: HeroProps) {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
+          className="mx-auto max-w-3xl"
         >
-          <p className="text-luxury-gold text-lg md:text-xl tracking-widest mb-4">
+          <p className="text-luxury-gold text-sm md:text-base uppercase tracking-[0.4em] mb-4 opacity-90">
             HOTEL GRAND KONARK ELLORA
           </p>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-luxury-ivory">
-            STAY NEAR
-            <span className="block text-luxury-gold">ELLORA'S GLORY</span>
+          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 text-luxury-ivory">
+            STAY IN
+            <span className="block text-luxury-gold">ELLORA&apos;S GLORY</span>
           </h1>
-          <p className="text-lg md:text-2xl text-luxury-ivory mb-8 max-w-2xl mx-auto opacity-90">
-            A luxurious and peaceful retreat near Ellora Caves, Grishneshwar Temple, and the sacred landmarks of Aurangabad.
+          <p className="text-base md:text-xl text-luxury-ivory mb-8 max-w-2xl mx-auto opacity-90 leading-relaxed">
+            Experience a cover-page luxury stay with grand architecture, rich interiors and effortless access to Ellora Caves, Grishneshwar Temple, and Aurangabad&apos;s sacred heritage.
           </p>
         </motion.div>
 
         {/* CTA Buttons */}
         <motion.div
-          className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
+          className="flex flex-col sm:flex-row gap-4 justify-center mb-6"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -64,6 +74,15 @@ export default function Hero({ onBookNow }: HeroProps) {
             WhatsApp Inquiry
           </a>
         </motion.div>
+
+        <motion.p
+          className="text-sm md:text-base text-luxury-gold opacity-80 mb-10 tracking-[0.24em]"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+        >
+          A living cover-page presentation of luxury hospitality — elegant, bold, and immaculately layered.
+        </motion.p>
 
         {/* Quick Actions */}
         <motion.div

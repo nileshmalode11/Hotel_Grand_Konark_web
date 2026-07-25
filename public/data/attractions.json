@@ -2,6 +2,36 @@
   "attractions": [
     {
       "id": 1,
+      "name": "Kailasa Temple",
+      "description": "The world-famous rock-cut Kailasa Temple at Ellora is one of the most remarkable architectural achievements of ancient India, carved from a single massive rock face and dedicated to Lord Shiva.",
+      "distance": "Within 1 km",
+      "distanceKm": 0.8,
+      "image": "/images/kailasa-1.jpg",
+      "category": "Heritage",
+      "highlights": [
+        "Rock-cut monument at Ellora",
+        "Grand Shiva temple complex",
+        "Rashtrakuta-era architecture",
+        "One of India’s most famous heritage sites"
+      ],
+      "bestTime": "October to February",
+      "timingsOpen": "09:00",
+      "timingsClose": "17:30",
+      "entryFee": "Entry fee varies by visitor category",
+      "nearbyPlaces": [
+        "Ellora Caves",
+        "Grishneshwar Temple",
+        "Bhadra Maruti Temple"
+      ],
+      "slug": "kailasa-temple",
+      "galleryImages": [
+        "/images/kailasa-1.jpg",
+        "/images/ellora-1.jpg",
+        "/images/hotel-outer-view.jpeg"
+      ]
+    },
+    {
+      "id": 2,
       "name": "Ellora Caves",
       "description": "A UNESCO World Heritage Site with rock-cut caves and the majestic Kailasa Temple, just minutes away from the hotel.",
       "distance": "Within 1 km",
@@ -26,7 +56,7 @@
       "slug": "ellora-caves"
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Grishneshwar Temple",
       "description": "One of the 12 Jyotirlingas and a spiritually significant temple located very close to the hotel.",
       "distance": "500m - 700m",
@@ -51,7 +81,7 @@
       "slug": "grishneshwar-temple"
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Bhadra Maruti Temple",
       "description": "A revered temple destination known for its peaceful surroundings and religious charm.",
       "distance": "4 km",
@@ -76,7 +106,7 @@
       "slug": "bhadra-maruti-temple"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Daultabad Fort",
       "description": "A remarkable hilltop fort with history, views, and a strong sense of old-world grandeur.",
       "distance": "10 km",
@@ -101,7 +131,7 @@
       "slug": "daultabad-fort"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Vishwakarma Temple",
       "description": "A compact and important local spiritual site located close to the hotel area.",
       "distance": "500m",
@@ -126,7 +156,7 @@
       "slug": "vishwakarma-temple"
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "108 Feet Mahadeva Pind",
       "description": "A notable local landmark that adds to the cultural and spiritual experience of the region.",
       "distance": "500m",
@@ -151,7 +181,7 @@
       "slug": "108-feet-mahadeva-pind"
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "Mahadeva Garden",
       "description": "A serene garden space that offers a relaxing stop during your local explorations.",
       "distance": "Within 1 km",
@@ -176,7 +206,7 @@
       "slug": "mahadeva-garden"
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "Mhaismal",
       "description": "A scenic and lesser-known destination offering beautiful nature and peaceful surroundings.",
       "distance": "12 km",
@@ -201,7 +231,7 @@
       "slug": "mhaismal"
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "Balaji Temple",
       "description": "A popular spiritual destination for travelers seeking a calm and devotional visit.",
       "distance": "12 km",
@@ -226,7 +256,36 @@
       "slug": "balaji-temple"
     },
     {
-      "id": 10,
+      "id": 11,
+      "name": "Lakshwinayak Ganapati Temple",
+      "description": "A revered local Ganapati shrine known for its spiritual ambiance and importance to visitors seeking a peaceful devotional stop near Ellora.",
+      "distance": "5 km",
+      "distanceKm": 5,
+      "image": "/images/hotel-symbol.jpeg",
+      "category": "Religious",
+      "highlights": [
+        "Ganapati temple visit",
+        "Peaceful spiritual site",
+        "Popular with local devotees",
+        "Easy day trip from the hotel"
+      ],
+      "bestTime": "Year-round",
+      "timingsOpen": "06:00",
+      "timingsClose": "20:00",
+      "entryFee": "Free",
+      "nearbyPlaces": [
+        "Kailasa Temple",
+        "Ellora Caves",
+        "Grishneshwar Temple"
+      ],
+      "slug": "lakshwinayak-ganapati-temple",
+      "galleryImages": [
+        "/images/hotel-symbol.jpeg",
+        "/images/hotel-outer-view.jpeg"
+      ]
+    },
+    {
+      "id": 12,
       "name": "Bibi Ka Makbara",
       "description": "An impressive heritage monument often compared to the Taj Mahal and worth visiting during your stay.",
       "distance": "30 km",

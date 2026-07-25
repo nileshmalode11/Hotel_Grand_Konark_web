@@ -95,7 +95,7 @@ export default function About() {
 
               <div className="bg-gradient-gold opacity-20 p-6 rounded-lg">
                 <p className="text-center text-luxury-ivory font-cormorant text-xl">
-                  "Where Heritage Meets Hospitality"
+                  &quot;Where Heritage Meets Hospitality&quot;
                 </p>
               </div>
             </motion.div>

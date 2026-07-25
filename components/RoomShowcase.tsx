@@ -8,6 +8,8 @@ interface Room {
   id: number;
   name: string;
   capacity: number;
+  size: string;
+  description: string;
   features: string[];
   image: string;
   category: string;

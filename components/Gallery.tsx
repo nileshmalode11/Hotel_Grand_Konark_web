@@ -1,12 +1,22 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-const galleryImages = Array.from({ length: 12 }, (_, i) => ({
-  id: i + 1,
-  title: `Gallery Image ${i + 1}`,
-  category: ['Rooms', 'Amenities', 'Dining', 'Events'][i % 4],
-}));
+const galleryImages = [
+  { id: 1, title: 'Hotel outer view', category: 'Exterior', image: '/images/hotel-outer-view.jpeg' },
+  { id: 2, title: 'Hotel symbol', category: 'Brand', image: '/images/hotel-symbol.jpeg' },
+  { id: 3, title: '3 bed room', category: 'Room', image: '/images/3bed-room.jpeg' },
+  { id: 4, title: 'Hotel stay', category: 'Stay', image: '/images/hotel-1.jpg' },
+  { id: 5, title: 'Hotel interior', category: 'Interior', image: '/images/hotel-2.jpg' },
+  { id: 6, title: 'Hotel ambience', category: 'Ambience', image: '/images/hotel-3.jpg' },
+  { id: 7, title: 'Ellora view', category: 'Heritage', image: '/images/ellora-1.jpg' },
+  { id: 8, title: 'Kailasa temple', category: 'Heritage', image: '/images/kailasa-1.jpg' },
+  { id: 9, title: 'Grishneshwar temple', category: 'Spiritual', image: '/images/grishneshwar-1.jpg' },
+  { id: 10, title: 'Daulatabad fort', category: 'Historical', image: '/images/daultabad-1.jpg' },
+  { id: 11, title: 'Bibi Ka Makbara', category: 'Historical', image: '/images/bibi-ka-makbara-1.jpg' },
+  { id: 12, title: 'Hotel view', category: 'Exterior', image: '/images/hotel-outer-view.jpeg' },
+];
 
 export default function Gallery() {
   const containerVariants = {
@@ -55,13 +65,17 @@ export default function Gallery() {
                 whileHover={{ scale: 1.05 }}
               >
                 <div className="relative w-full h-full bg-gradient-to-br from-luxury-gold to-luxury-gold-dark opacity-20 flex items-center justify-center overflow-hidden">
+                  <Image
+                    src={image.image}
+                    alt={image.title}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 25vw"
+                  />
                   <div className="absolute inset-0 bg-gradient-to-t from-luxury-charcoal to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10 flex flex-col justify-end p-4">
                     <h3 className="text-lg font-bold text-luxury-ivory">{image.title}</h3>
                     <p className="text-luxury-gold text-sm">{image.category}</p>
                   </div>
-                  <p className="text-luxury-gold opacity-40 group-hover:opacity-60 transition-opacity">
-                    Image {image.id}
-                  </p>
                 </div>
               </motion.div>
             ))}
