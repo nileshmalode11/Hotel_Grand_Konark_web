@@ -127,14 +127,14 @@ export default function Footer() {
           className="py-8 border-t border-luxury-gold border-opacity-20 grid md:grid-cols-3 gap-6 mb-8"
         >
           <motion.a
-            href="tel:+919999999999"
+            href="tel:+917030969695"
             variants={itemVariants}
             className="flex items-center gap-3 text-luxury-ivory hover:text-luxury-gold transition-colors"
           >
             <FiPhone className="text-2xl text-luxury-gold" />
             <div className="text-sm">
               <p className="text-luxury-gold font-semibold">Phone</p>
-              <p className="opacity-80">+91 9999999999</p>
+              <p className="opacity-80">+91 7030969695</p>
             </div>
           </motion.a>
 
@@ -153,14 +153,14 @@ export default function Footer() {
           </motion.a>
 
           <motion.a
-            href="mailto:info@grandkonark.com"
+            href="mailto:hotelgk9696@gmail.com"
             variants={itemVariants}
             className="flex items-center gap-3 text-luxury-ivory hover:text-luxury-gold transition-colors"
           >
             <FiMail className="text-2xl text-luxury-gold" />
             <div className="text-sm">
               <p className="text-luxury-gold font-semibold">Email</p>
-              <p className="opacity-80">info@grandkonark.com</p>
+              <p className="opacity-80">hotelgk9696@gmail.com</p>
             </div>
           </motion.a>
         </motion.div>

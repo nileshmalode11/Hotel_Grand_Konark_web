@@ -22,7 +22,7 @@ export default function FloatingActionButtons({ onBookNow }: FloatingActionButto
     {
       icon: FiPhone,
       label: 'Call Us',
-      onClick: () => window.location.href = 'tel:+919999999999',
+      onClick: () => window.location.href = 'tel:+917030969695',
       color: 'bg-blue-600',
       hoverColor: 'hover:bg-blue-700',
     },
@@ -92,7 +92,7 @@ export default function FloatingActionButtons({ onBookNow }: FloatingActionButto
         animate={{ y: 0 }}
       >
         <div className="flex gap-2 justify-center">
-          <a href="tel:+919999999999" className="btn-primary text-sm py-2">
+          <a href="tel:+917030969695" className="btn-primary text-sm py-2">
             <FiPhone className="inline mr-2" />
             Call
           </a>

@@ -113,9 +113,9 @@ Edit files in `public/data/`:
 {
   "name": "HOTEL GRAND KONARK ELLORA",
   "contact": {
-    "phone": "+91 9999999999",
+    "phone": "+91 7030969695",
     "whatsapp": "+91 7030969695",
-    "email": "info@grandkonark.com"
+    "email": "hotelgk9696@gmail.com"
   }
 }
 ```

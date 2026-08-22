@@ -109,7 +109,7 @@ Special Request: ${formData.specialRequest || 'None'}
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full bg-luxury-charcoal border border-luxury-gold border-opacity-30 rounded-lg px-4 py-2 text-luxury-ivory focus:border-luxury-gold outline-none transition-colors text-sm"
-                    placeholder="+91 9999999999"
+                    placeholder="+91 7030969695"
                     required
                   />
                 </div>
