@@ -6,7 +6,7 @@
       "description": "The world-famous rock-cut Kailasa Temple at Ellora is one of the most remarkable architectural achievements of ancient India, carved from a single massive rock face and dedicated to Lord Shiva.",
       "distance": "Within 1 km",
       "distanceKm": 0.8,
-      "image": "/images/kailasa-1.jpg",
+      "image": "/images/kailasa-temple.png",
       "category": "Heritage",
       "highlights": [
         "Rock-cut monument at Ellora",
@@ -25,8 +25,8 @@
       ],
       "slug": "kailasa-temple",
       "galleryImages": [
-        "/images/kailasa-1.jpg",
-        "/images/ellora-1.jpg",
+        "/images/kailasa-temple.png",
+        "/images/kailasa-temple-2.png",
         "/images/hotel-outer-view.jpeg"
       ]
     },
@@ -36,7 +36,7 @@
       "description": "A UNESCO World Heritage Site with rock-cut caves and the majestic Kailasa Temple, just minutes away from the hotel.",
       "distance": "Within 1 km",
       "distanceKm": 1,
-      "image": "/attractions/ellora-caves.jpg",
+      "image": "/images/kailasa-temple-2.png",
       "category": "Heritage",
       "highlights": [
         "Kailasa Temple",
@@ -61,7 +61,7 @@
       "description": "One of the 12 Jyotirlingas and a spiritually significant temple located very close to the hotel.",
       "distance": "500m - 700m",
       "distanceKm": 0.6,
-      "image": "/attractions/grishneshwar-temple.jpg",
+      "image": "/images/grishneshwar-temple.png",
       "category": "Religious",
       "highlights": [
         "Jyotirlinga shrine",
@@ -86,7 +86,7 @@
       "description": "A revered temple destination known for its peaceful surroundings and religious charm.",
       "distance": "4 km",
       "distanceKm": 4,
-      "image": "/attractions/bhadra-maruti.jpg",
+      "image": "/images/bhadra-maruti-temple.png",
       "category": "Religious",
       "highlights": [
         "Spiritual stopover",
@@ -111,7 +111,7 @@
       "description": "A remarkable hilltop fort with history, views, and a strong sense of old-world grandeur.",
       "distance": "10 km",
       "distanceKm": 10,
-      "image": "/attractions/daultabad-fort.jpg",
+      "image": "/images/daulatabad-fort.png",
       "category": "Historical",
       "highlights": [
         "Historic fort structure",
@@ -136,7 +136,7 @@
       "description": "A compact and important local spiritual site located close to the hotel area.",
       "distance": "500m",
       "distanceKm": 0.5,
-      "image": "/attractions/vishwakarma-temple.jpg",
+      "image": "/images/vishwakarma-temple.png",
       "category": "Religious",
       "highlights": [
         "Nearby temple visit",
@@ -161,7 +161,7 @@
       "description": "A notable local landmark that adds to the cultural and spiritual experience of the region.",
       "distance": "500m",
       "distanceKm": 0.5,
-      "image": "/attractions/mahadeva-pind.jpg",
+      "image": "/images/108-feet-mahadev-shivling.png",
       "category": "Cultural",
       "highlights": [
         "Local landmark",
@@ -211,7 +211,7 @@
       "description": "A scenic and lesser-known destination offering beautiful nature and peaceful surroundings.",
       "distance": "12 km",
       "distanceKm": 12,
-      "image": "/attractions/mhaismal.jpg",
+      "image": "/images/mhaismal-hill-station.png",
       "category": "Nature",
       "highlights": [
         "Nature retreat",
@@ -236,7 +236,7 @@
       "description": "A popular spiritual destination for travelers seeking a calm and devotional visit.",
       "distance": "12 km",
       "distanceKm": 12,
-      "image": "/attractions/balaji-temple.jpg",
+      "image": "/images/balaji-temple.png",
       "category": "Religious",
       "highlights": [
         "Devotional destination",
@@ -261,7 +261,7 @@
       "description": "A revered local Ganapati shrine known for its spiritual ambiance and importance to visitors seeking a peaceful devotional stop near Ellora.",
       "distance": "5 km",
       "distanceKm": 5,
-      "image": "/images/hotel-symbol.jpeg",
+      "image": "/images/lakshvinayak-ganapati-temple.png",
       "category": "Religious",
       "highlights": [
         "Ganapati temple visit",
@@ -280,7 +280,7 @@
       ],
       "slug": "lakshwinayak-ganapati-temple",
       "galleryImages": [
-        "/images/hotel-symbol.jpeg",
+        "/images/lakshvinayak-ganapati-temple.png",
         "/images/hotel-outer-view.jpeg"
       ]
     },
@@ -290,7 +290,7 @@
       "description": "An impressive heritage monument often compared to the Taj Mahal and worth visiting during your stay.",
       "distance": "30 km",
       "distanceKm": 30,
-      "image": "/attractions/bibi-ka-makbara.jpg",
+      "image": "/images/bibi-ka-maqbara.png",
       "category": "Historical",
       "highlights": [
         "Mughal architecture",
@@ -308,6 +308,34 @@
         "Daultabad Fort"
       ],
       "slug": "bibi-ka-makbara"
+    },
+    {
+      "id": 13,
+      "name": "Ahilyabai Holkar Shivkund",
+      "description": "A historic stepped water tank built during the Ahilyabai Holkar era, known for its stone architecture, ghats and calm spiritual atmosphere near Ellora.",
+      "distance": "Within 1 km",
+      "distanceKm": 1,
+      "image": "/images/ahilyabai-holkar-shivkund.png",
+      "category": "Heritage",
+      "highlights": [
+        "Historic stepped water tank",
+        "Ahilyabai Holkar era stone architecture",
+        "Peaceful ghats and shrines",
+        "Short walk from the hotel"
+      ],
+      "bestTime": "Year-round",
+      "timingsOpen": "06:00",
+      "timingsClose": "20:00",
+      "entryFee": "Free",
+      "nearbyPlaces": [
+        "Grishneshwar Temple",
+        "Ellora Caves",
+        "Kailasa Temple"
+      ],
+      "slug": "ahilyabai-holkar-shivkund",
+      "galleryImages": [
+        "/images/ahilyabai-holkar-shivkund.png"
+      ]
     }
   ]
 }

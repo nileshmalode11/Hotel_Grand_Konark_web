@@ -31,7 +31,7 @@
         "WiFi Access",
         "Quiet Interior"
       ],
-      "image": "/images/double-bed-non-ac.jpg",
+      "image": "/images/double-bed-non-ac.png",
       "category": "double"
     },
     {
@@ -48,7 +48,7 @@
         "WiFi Access",
         "Extra Space"
       ],
-      "image": "/images/triple-bed-ac.jpg",
+      "image": "/images/triple-bed-ac.jpeg",
       "category": "family"
     },
     {
@@ -65,7 +65,7 @@
         "WiFi Access",
         "Priority Comfort"
       ],
-      "image": "/images/luxury-double-ac.jpg",
+      "image": "/images/luxury-double-ac.jpeg",
       "category": "luxury"
     },
     {
@@ -82,7 +82,7 @@
         "WiFi Access",
         "Large Space"
       ],
-      "image": "/images/four-bed-ac.jpg",
+      "image": "/images/four-bed-ac.png",
       "category": "family"
     },
     {

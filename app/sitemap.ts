@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'ajanta-caves',
     'bibi-ka-maqbara',
     'daultabad-fort',
+    'ahilyabai-holkar-shivkund',
   ];
 
   return [
