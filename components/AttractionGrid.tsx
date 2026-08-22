@@ -63,19 +63,28 @@ export default function AttractionGrid() {
               <Link href={`/attractions/${attraction.slug}`} key={attraction.id}>
                 <motion.div
                   variants={itemVariants}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, margin: '-100px' }}
                   className="glass-effect rounded-lg overflow-hidden cursor-pointer group"
                   whileHover={{ y: -10 }}
                 >
                   {/* Image */}
-                  <div className="relative h-48 bg-gradient-gold opacity-20 overflow-hidden">
-                    <Image
-                      src={attraction.image || '/images/hotel-outer-view.jpeg'}
-                      alt={attraction.name}
-                      fill
-                      className="object-cover"
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-luxury-charcoal to-transparent z-10" />
+                  <div className="relative h-48 bg-luxury-charcoal overflow-hidden">
+                    {attraction.image ? (
+                      <Image
+                        src={attraction.image}
+                        alt={attraction.name}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 33vw"
+                      />
+                    ) : (
+                      <p className="absolute inset-0 flex items-center justify-center text-luxury-gold opacity-50">
+                        Photo coming soon
+                      </p>
+                    )}
+                    <div className="absolute inset-0 bg-gradient-to-t from-luxury-charcoal/80 to-transparent z-10" />
                   </div>
 
                   {/* Content */}

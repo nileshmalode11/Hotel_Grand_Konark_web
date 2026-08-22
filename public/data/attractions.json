@@ -26,8 +26,7 @@
       "slug": "kailasa-temple",
       "galleryImages": [
         "/images/kailasa-temple.png",
-        "/images/kailasa-temple-2.png",
-        "/images/hotel-outer-view.jpeg"
+        "/images/kailasa-temple-2.png"
       ]
     },
     {
@@ -186,7 +185,7 @@
       "description": "A serene garden space that offers a relaxing stop during your local explorations.",
       "distance": "Within 1 km",
       "distanceKm": 1,
-      "image": "/attractions/mahadeva-garden.jpg",
+      "image": "",
       "category": "Nature",
       "highlights": [
         "Peaceful greenery",
@@ -280,8 +279,7 @@
       ],
       "slug": "lakshwinayak-ganapati-temple",
       "galleryImages": [
-        "/images/lakshvinayak-ganapati-temple.png",
-        "/images/hotel-outer-view.jpeg"
+        "/images/lakshvinayak-ganapati-temple.png"
       ]
     },
     {

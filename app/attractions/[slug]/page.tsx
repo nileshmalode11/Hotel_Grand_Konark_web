@@ -63,13 +63,15 @@ export default function AttractionPage({ params: { slug } }: { params: { slug: s
 
       {/* Hero Section */}
       <section className="relative h-96 mt-20 flex items-center justify-center overflow-hidden">
-        <Image
-          src={attraction.image || '/images/hotel-outer-view.jpeg'}
-          alt={attraction.name}
-          fill
-          className="object-cover"
-          priority
-        />
+        {attraction.image && (
+          <Image
+            src={attraction.image}
+            alt={attraction.name}
+            fill
+            className="object-cover"
+            priority
+          />
+        )}
         <div className="absolute inset-0 bg-gradient-to-r from-luxury-charcoal/90 via-luxury-charcoal/60 to-luxury-charcoal/90" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center z-10">
@@ -153,10 +155,10 @@ export default function AttractionPage({ params: { slug } }: { params: { slug: s
             >
               <h2 className="text-3xl font-bold text-luxury-gold mb-4">Photo Gallery</h2>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                {(attraction.galleryImages || [attraction.image]).slice(0, 6).map((image, i) => (
+                {(attraction.galleryImages || [attraction.image]).filter(Boolean).slice(0, 6).map((image, i) => (
                   <div
                     key={`${attraction.slug}-${i}`}
-                    className="aspect-square glass-effect rounded-lg overflow-hidden border border-luxury-gold border-opacity-20"
+                    className="relative aspect-square glass-effect rounded-lg overflow-hidden border border-luxury-gold border-opacity-20"
                   >
                     <Image src={image} alt={`${attraction.name} view ${i + 1}`} fill className="object-cover" />
                   </div>

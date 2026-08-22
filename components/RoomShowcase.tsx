@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { FiMapPin } from 'react-icons/fi';
 
@@ -35,7 +36,9 @@ export default function RoomShowcase() {
     ]).then(([roomsData, pricingData]) => {
       setRooms(roomsData.rooms);
       setPricing(pricingData.pricing);
-      setSelectedRoom(roomsData.rooms[0]);
+      setSelectedRoom(
+        roomsData.rooms.find((room: Room) => room.image) ?? roomsData.rooms[0]
+      );
     });
   }, []);
 
@@ -118,8 +121,18 @@ export default function RoomShowcase() {
                 animate={{ opacity: 1, x: 0 }}
                 className="glass-effect-light p-8 rounded-lg space-y-6"
               >
-                <div className="relative w-full h-64 bg-gradient-gold opacity-20 rounded-lg flex items-center justify-center">
-                  <p className="text-luxury-gold opacity-50">Luxury Room Image</p>
+                <div className="relative w-full h-64 bg-luxury-charcoal rounded-lg overflow-hidden flex items-center justify-center">
+                  {selectedRoom.image ? (
+                    <Image
+                      src={selectedRoom.image}
+                      alt={selectedRoom.name}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                  ) : (
+                    <p className="text-luxury-gold opacity-50">Photo coming soon</p>
+                  )}
                 </div>
 
                 <div>

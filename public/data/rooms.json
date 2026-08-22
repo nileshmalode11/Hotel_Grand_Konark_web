@@ -14,7 +14,7 @@
         "WiFi Access",
         "Room Service"
       ],
-      "image": "/images/double-bed-ac.jpg",
+      "image": "",
       "category": "double"
     },
     {
@@ -99,7 +99,7 @@
         "WiFi Access",
         "Value Stay"
       ],
-      "image": "/images/four-bed-non-ac.jpg",
+      "image": "",
       "category": "family"
     }
   ]
