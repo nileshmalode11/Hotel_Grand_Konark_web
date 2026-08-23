@@ -72,7 +72,7 @@ Special Request: ${formData.specialRequest || 'None'}
             initial={{ opacity: 0, scale: 0.9, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.9, y: 20 }}
-            className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 w-full max-w-md mx-4"
+            className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 w-full max-w-md mx-4 max-h-[90vh] overflow-y-auto"
           >
             <div className="glass-effect-light rounded-lg p-8">
               {/* Header */}
@@ -109,7 +109,7 @@ Special Request: ${formData.specialRequest || 'None'}
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full bg-luxury-charcoal border border-luxury-gold border-opacity-30 rounded-lg px-4 py-2 text-luxury-ivory focus:border-luxury-gold outline-none transition-colors text-sm"
-                    placeholder="+91 7030969695"
+                    placeholder="Your 10-digit mobile number"
                     required
                   />
                 </div>
