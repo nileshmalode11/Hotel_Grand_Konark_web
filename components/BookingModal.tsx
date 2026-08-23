@@ -68,12 +68,13 @@ Special Request: ${formData.specialRequest || 'None'}
           />
 
           {/* Modal */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9, y: 20 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.9, y: 20 }}
-            className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 w-full max-w-md mx-4 max-h-[90vh] overflow-y-auto"
-          >
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 pointer-events-none">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.9, y: 20 }}
+              className="w-full max-w-md max-h-[90vh] overflow-y-auto pointer-events-auto"
+            >
             <div className="glass-effect-light rounded-lg p-8">
               {/* Header */}
               <div className="flex justify-between items-center mb-6">
@@ -195,7 +196,8 @@ Special Request: ${formData.specialRequest || 'None'}
                 We will confirm your stay through WhatsApp or a call on +91 7030969695.
               </p>
             </div>
-          </motion.div>
+            </motion.div>
+          </div>
         </>
       )}
     </AnimatePresence>
