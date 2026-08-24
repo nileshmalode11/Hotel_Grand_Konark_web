@@ -5,10 +5,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   
   const attractions = [
     'ellora-caves',
+    'kailasa-temple',
     'grishneshwar-temple',
-    'ajanta-caves',
+    'lakshvinayak-ganpati-temple',
+    'bhadra-maruti-temple',
+    'maheshmal-balaji-temple',
+    'daulatabad-fort',
+    'panchakki',
+    'vishwakarma-teerth-dham',
     'bibi-ka-maqbara',
-    'daultabad-fort',
     'ahilyabai-holkar-shivkund',
   ];
 

@@ -9,7 +9,6 @@ interface Attraction {
   id: number;
   name: string;
   description: string;
-  distance: string;
   image: string;
   category: string;
   slug: string;
@@ -89,20 +88,15 @@ export default function AttractionGrid() {
 
                   {/* Content */}
                   <div className="p-6">
-                    <div className="flex justify-between items-start mb-3">
-                      <div>
-                        <h3 className="text-lg font-bold mb-1">{attraction.name}</h3>
-                        <p className="text-sm text-luxury-gold">{attraction.category}</p>
-                      </div>
-                      <span className="text-sm text-luxury-ivory opacity-70 bg-luxury-charcoal px-2 py-1 rounded">
-                        {attraction.distance}
-                      </span>
+                    <div className="mb-3">
+                      <h3 className="text-lg font-bold mb-1">{attraction.name}</h3>
+                      <p className="text-sm text-luxury-gold">{attraction.category}</p>
                     </div>
                     <p className="text-sm text-luxury-ivory opacity-80 line-clamp-2 mb-4">
                       {attraction.description}
                     </p>
                     <button className="btn-ghost text-sm group-hover:text-luxury-gold-light">
-                      Learn More →
+                      Read More →
                     </button>
                   </div>
                 </motion.div>

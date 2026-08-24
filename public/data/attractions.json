@@ -2,335 +2,391 @@
   "attractions": [
     {
       "id": 1,
-      "name": "Kailasa Temple",
-      "description": "The world-famous rock-cut Kailasa Temple at Ellora is one of the most remarkable architectural achievements of ancient India, carved from a single massive rock face and dedicated to Lord Shiva.",
-      "distance": "Within 1 km",
-      "distanceKm": 0.8,
-      "image": "/images/kailasa-temple.png",
+      "name": "Ellora Caves",
+      "description": "A UNESCO World Heritage Site of 34 Buddhist, Hindu and Jain rock-cut caves carved into a basalt cliff.",
+      "image": "/images/kailasa-temple-2.png",
       "category": "Heritage",
+      "slug": "ellora-caves",
+      "about": [
+        "Ellora Caves are among the most important historical attractions in Maharashtra and are inscribed as a UNESCO World Heritage Site. The site holds 34 major rock-cut caves, temples and monasteries carved out of a basalt cliff, representing the Buddhist, Hindu and Jain traditions side by side.",
+        "The complex developed between roughly the 6th and 10th centuries CE, and its best known monument is Cave 16, the Kailasa Temple, carved out of a single mass of rock. Together the caves are an extraordinary record of ancient Indian architecture, sculpture, religion and engineering."
+      ],
       "highlights": [
-        "Rock-cut monument at Ellora",
-        "Grand Shiva temple complex",
-        "Rashtrakuta-era architecture",
-        "One of India’s most famous heritage sites"
+        "34 rock-cut caves along a basalt cliff",
+        "Buddhist, Hindu and Jain monuments in one complex",
+        "Cave 16 – the monolithic Kailasa Temple",
+        "Sculptural panels and carved pillared halls"
+      ],
+      "whyVisit": [
+        "UNESCO World Heritage Site",
+        "Ancient rock-cut architecture",
+        "Sculptures and detailed carvings",
+        "A full day of heritage exploration close to the hotel"
       ],
       "bestTime": "October to February",
-      "timingsOpen": "09:00",
-      "timingsClose": "17:30",
-      "entryFee": "Entry fee varies by visitor category",
+      "nearbyPlaces": [
+        "Kailasa Temple",
+        "Grishneshwar Jyotirlinga Temple",
+        "Lakshvinayak Ganpati Temple"
+      ],
+      "links": [
+        { "label": "UNESCO – Ellora Caves", "url": "https://whc.unesco.org/en/list/243/" },
+        { "label": "Maharashtra Tourism", "url": "https://www.maharashtratourism.gov.in/" },
+        { "label": "Wikipedia – Ellora Caves", "url": "https://en.wikipedia.org/wiki/Ellora_Caves" }
+      ],
+      "galleryImages": [
+        "/images/kailasa-temple-2.png",
+        "/images/kailasa-temple.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Kailasa Temple – Ellora",
+      "description": "Cave 16 at Ellora: a monumental temple to Lord Shiva carved out of a single rock.",
+      "image": "/images/kailasa-temple.png",
+      "category": "Heritage",
+      "slug": "kailasa-temple",
+      "about": [
+        "Kailasa Temple sits in Cave 16 of the Ellora complex and is considered one of the most remarkable achievements of ancient Indian rock-cut architecture. The entire temple was carved downwards out of a single rock mass rather than built up from stone blocks.",
+        "The temple is dedicated to Lord Shiva and is traditionally associated with the Rashtrakuta ruler Krishna I in the 8th century. Its enormous courtyard, Nandi Mandapa, towering shikhara and carved panels from the Ramayana and Mahabharata give visitors an extraordinary sense of the craftsmanship of the period."
+      ],
+      "highlights": [
+        "Carved from one single rock",
+        "Dedicated to Lord Shiva",
+        "Nandi Mandapa and pillared courtyard",
+        "Ramayana and Mahabharata sculptural panels"
+      ],
+      "whyVisit": [
+        "One of the greatest works of Indian rock-cut architecture",
+        "Monumental scale and stone sculpture",
+        "The most iconic monument of Ellora",
+        "Outstanding photography and heritage experience"
+      ],
+      "bestTime": "October to February",
       "nearbyPlaces": [
         "Ellora Caves",
-        "Grishneshwar Temple",
-        "Bhadra Maruti Temple"
+        "Grishneshwar Jyotirlinga Temple",
+        "Ahilyabai Holkar Shivkund"
       ],
-      "slug": "kailasa-temple",
+      "links": [
+        { "label": "UNESCO – Ellora Caves", "url": "https://whc.unesco.org/en/list/243/" },
+        { "label": "Wikipedia – Kailasa Temple, Ellora", "url": "https://en.wikipedia.org/wiki/Kailasa_Temple,_Ellora" }
+      ],
       "galleryImages": [
         "/images/kailasa-temple.png",
         "/images/kailasa-temple-2.png"
       ]
     },
     {
-      "id": 2,
-      "name": "Ellora Caves",
-      "description": "A UNESCO World Heritage Site with rock-cut caves and the majestic Kailasa Temple, just minutes away from the hotel.",
-      "distance": "Within 1 km",
-      "distanceKm": 1,
-      "image": "/images/kailasa-temple-2.png",
-      "category": "Heritage",
-      "highlights": [
-        "Kailasa Temple",
-        "Buddhist, Hindu and Jain monuments",
-        "Historic rock-cut architecture",
-        "Excellent for photography and heritage walks"
-      ],
-      "bestTime": "October to February",
-      "timingsOpen": "09:00",
-      "timingsClose": "17:30",
-      "entryFee": "Entry fee varies by visitor category",
-      "nearbyPlaces": [
-        "Grishneshwar Temple",
-        "Bhadra Maruti Temple",
-        "Daultabad Fort"
-      ],
-      "slug": "ellora-caves"
-    },
-    {
       "id": 3,
-      "name": "Grishneshwar Temple",
-      "description": "One of the 12 Jyotirlingas and a spiritually significant temple located very close to the hotel.",
-      "distance": "500m - 700m",
-      "distanceKm": 0.6,
+      "name": "Grishneshwar Jyotirlinga Temple",
+      "description": "One of the twelve Jyotirlingas of Lord Shiva, in Verul beside the Ellora heritage complex.",
       "image": "/images/grishneshwar-temple.png",
       "category": "Religious",
+      "slug": "grishneshwar-temple",
+      "about": [
+        "Grishneshwar Jyotirlinga Temple in Verul is one of the twelve Jyotirlingas of Lord Shiva and one of the most revered pilgrimage destinations of the region.",
+        "The present temple is built in red volcanic stone with a beautifully carved five-tiered shikhara and a twenty-four pillared assembly hall. Its pillars and walls carry detailed sculptures and mythological artwork, and the temple in its current form is largely associated with the 18th-century restoration works of Ahilyabai Holkar."
+      ],
       "highlights": [
-        "Jyotirlinga shrine",
-        "Sacred architecture",
-        "Ideal for morning visits",
-        "Strong spiritual ambience"
+        "One of the twelve Jyotirlingas",
+        "Red volcanic stone construction",
+        "Five-tiered carved shikhara",
+        "Twenty-four pillared sabha mandap"
+      ],
+      "whyVisit": [
+        "Major Lord Shiva pilgrimage",
+        "Traditional stone temple architecture",
+        "Detailed carvings and sculpture",
+        "Deeply spiritual atmosphere, ideal early in the morning"
       ],
       "bestTime": "Year-round",
-      "timingsOpen": "05:00",
-      "timingsClose": "21:00",
-      "entryFee": "Free",
       "nearbyPlaces": [
         "Ellora Caves",
-        "Bhadra Maruti Temple",
-        "Vishwakarma Temple"
+        "Kailasa Temple",
+        "Lakshvinayak Ganpati Temple"
       ],
-      "slug": "grishneshwar-temple"
+      "links": [
+        { "label": "Maharashtra Tourism", "url": "https://www.maharashtratourism.gov.in/" },
+        { "label": "Wikipedia – Grishneshwar Temple", "url": "https://en.wikipedia.org/wiki/Grishneshwar_Temple" }
+      ],
+      "galleryImages": [
+        "/images/grishneshwar-temple.png"
+      ]
     },
     {
       "id": 4,
-      "name": "Bhadra Maruti Temple",
-      "description": "A revered temple destination known for its peaceful surroundings and religious charm.",
-      "distance": "4 km",
-      "distanceKm": 4,
-      "image": "/images/bhadra-maruti-temple.png",
-      "category": "Religious",
-      "highlights": [
-        "Spiritual stopover",
-        "Calm temple atmosphere",
-        "Easy short trip from the hotel",
-        "Great for local cultural experience"
-      ],
-      "bestTime": "Year-round",
-      "timingsOpen": "06:00",
-      "timingsClose": "20:00",
-      "entryFee": "Free",
-      "nearbyPlaces": [
-        "Ellora Caves",
-        "Grishneshwar Temple",
-        "Daultabad Fort"
-      ],
-      "slug": "bhadra-maruti-temple"
-    },
-    {
-      "id": 5,
-      "name": "Daultabad Fort",
-      "description": "A remarkable hilltop fort with history, views, and a strong sense of old-world grandeur.",
-      "distance": "10 km",
-      "distanceKm": 10,
-      "image": "/images/daulatabad-fort.png",
-      "category": "Historical",
-      "highlights": [
-        "Historic fort structure",
-        "Grand views",
-        "Great for sightseeing",
-        "Interesting for history lovers"
-      ],
-      "bestTime": "October to February",
-      "timingsOpen": "09:00",
-      "timingsClose": "17:30",
-      "entryFee": "Entry fee may vary",
-      "nearbyPlaces": [
-        "Ellora Caves",
-        "Bhadra Maruti Temple",
-        "Mahadeva Garden"
-      ],
-      "slug": "daultabad-fort"
-    },
-    {
-      "id": 6,
-      "name": "Vishwakarma Temple",
-      "description": "A compact and important local spiritual site located close to the hotel area.",
-      "distance": "500m",
-      "distanceKm": 0.5,
-      "image": "/images/vishwakarma-temple.png",
-      "category": "Religious",
-      "highlights": [
-        "Nearby temple visit",
-        "Local cultural relevance",
-        "Quiet surroundings",
-        "Easy access from the hotel"
-      ],
-      "bestTime": "Year-round",
-      "timingsOpen": "06:00",
-      "timingsClose": "20:00",
-      "entryFee": "Free",
-      "nearbyPlaces": [
-        "Grishneshwar Temple",
-        "Mahadeva Garden",
-        "108 Feet Mahadeva Pind"
-      ],
-      "slug": "vishwakarma-temple"
-    },
-    {
-      "id": 7,
-      "name": "108 Feet Mahadeva Pind",
-      "description": "A notable local landmark that adds to the cultural and spiritual experience of the region.",
-      "distance": "500m",
-      "distanceKm": 0.5,
-      "image": "/images/108-feet-mahadev-shivling.png",
-      "category": "Cultural",
-      "highlights": [
-        "Local landmark",
-        "Cultural importance",
-        "Short visit from the hotel",
-        "Great for quick exploration"
-      ],
-      "bestTime": "Year-round",
-      "timingsOpen": "06:00",
-      "timingsClose": "20:00",
-      "entryFee": "Free",
-      "nearbyPlaces": [
-        "Vishwakarma Temple",
-        "Mahadeva Garden",
-        "Grishneshwar Temple"
-      ],
-      "slug": "108-feet-mahadeva-pind"
-    },
-    {
-      "id": 8,
-      "name": "Mahadeva Garden",
-      "description": "A serene garden space that offers a relaxing stop during your local explorations.",
-      "distance": "Within 1 km",
-      "distanceKm": 1,
-      "image": "",
-      "category": "Nature",
-      "highlights": [
-        "Peaceful greenery",
-        "Relaxed atmosphere",
-        "Ideal for short breaks",
-        "Easy access from the hotel"
-      ],
-      "bestTime": "Year-round",
-      "timingsOpen": "06:00",
-      "timingsClose": "20:00",
-      "entryFee": "Free",
-      "nearbyPlaces": [
-        "Vishwakarma Temple",
-        "108 Feet Mahadeva Pind",
-        "Ellora Caves"
-      ],
-      "slug": "mahadeva-garden"
-    },
-    {
-      "id": 9,
-      "name": "Mhaismal",
-      "description": "A scenic and lesser-known destination offering beautiful nature and peaceful surroundings.",
-      "distance": "12 km",
-      "distanceKm": 12,
-      "image": "/images/mhaismal-hill-station.png",
-      "category": "Nature",
-      "highlights": [
-        "Nature retreat",
-        "Scenic viewpoints",
-        "Good for day trips",
-        "Peaceful atmosphere"
-      ],
-      "bestTime": "October to March",
-      "timingsOpen": "06:00",
-      "timingsClose": "18:00",
-      "entryFee": "Free",
-      "nearbyPlaces": [
-        "Daultabad Fort",
-        "Ellora Caves",
-        "Balaji Temple"
-      ],
-      "slug": "mhaismal"
-    },
-    {
-      "id": 10,
-      "name": "Balaji Temple",
-      "description": "A popular spiritual destination for travelers seeking a calm and devotional visit.",
-      "distance": "12 km",
-      "distanceKm": 12,
-      "image": "/images/balaji-temple.png",
-      "category": "Religious",
-      "highlights": [
-        "Devotional destination",
-        "Quiet spiritual setting",
-        "Worth a visit for pilgrims",
-        "Easy day trip"
-      ],
-      "bestTime": "Year-round",
-      "timingsOpen": "06:00",
-      "timingsClose": "20:00",
-      "entryFee": "Free",
-      "nearbyPlaces": [
-        "Mhaismal",
-        "Ellora Caves",
-        "Daultabad Fort"
-      ],
-      "slug": "balaji-temple"
-    },
-    {
-      "id": 11,
-      "name": "Lakshwinayak Ganapati Temple",
-      "description": "A revered local Ganapati shrine known for its spiritual ambiance and importance to visitors seeking a peaceful devotional stop near Ellora.",
-      "distance": "5 km",
-      "distanceKm": 5,
+      "name": "Lakshvinayak Ganpati Temple – Verul",
+      "description": "A revered Ganesha shrine at Verul, counted among the traditional Ganpati Kshetras.",
       "image": "/images/lakshvinayak-ganapati-temple.png",
       "category": "Religious",
+      "slug": "lakshvinayak-ganpati-temple",
+      "about": [
+        "Shri Lakshvinayak Ganpati Temple at Verul is an important Ganesha shrine and is traditionally counted among the twenty-one significant Ganpati Kshetras.",
+        "Its location beside Grishneshwar Temple and the Ellora Caves makes it an easy and peaceful spiritual stop for devotees exploring the Verul area, and its local religious traditions place it among the important shrines of the region."
+      ],
       "highlights": [
-        "Ganapati temple visit",
-        "Peaceful spiritual site",
-        "Popular with local devotees",
-        "Easy day trip from the hotel"
+        "Revered Lord Ganesha shrine",
+        "Counted among the traditional Ganpati Kshetras",
+        "Peaceful devotional atmosphere",
+        "Part of Verul's religious heritage"
+      ],
+      "whyVisit": [
+        "A calm spiritual stop near Ellora and Grishneshwar",
+        "Living local worship traditions",
+        "Easy to combine with the Ellora sightseeing circuit"
       ],
       "bestTime": "Year-round",
-      "timingsOpen": "06:00",
-      "timingsClose": "20:00",
-      "entryFee": "Free",
       "nearbyPlaces": [
-        "Kailasa Temple",
+        "Grishneshwar Jyotirlinga Temple",
         "Ellora Caves",
-        "Grishneshwar Temple"
+        "Kailasa Temple"
       ],
-      "slug": "lakshwinayak-ganapati-temple",
+      "links": [],
       "galleryImages": [
         "/images/lakshvinayak-ganapati-temple.png"
       ]
     },
     {
-      "id": 12,
-      "name": "Bibi Ka Makbara",
-      "description": "An impressive heritage monument often compared to the Taj Mahal and worth visiting during your stay.",
-      "distance": "30 km",
-      "distanceKm": 30,
-      "image": "/images/bibi-ka-maqbara.png",
-      "category": "Historical",
-      "highlights": [
-        "Mughal architecture",
-        "Historic monument",
-        "Photogenic landmark",
-        "Worth a half-day visit"
+      "id": 5,
+      "name": "Bhadra Maruti Temple – Khultabad",
+      "description": "A famous Hanuman temple at Khultabad, known for its rare reclining idol of Lord Hanuman.",
+      "image": "/images/bhadra-maruti-temple.png",
+      "category": "Religious",
+      "slug": "bhadra-maruti-temple",
+      "about": [
+        "Bhadra Maruti Temple at Khultabad is a well-known shrine dedicated to Lord Hanuman. Its most distinctive feature is the idol of Hanuman in a reclining or sleeping posture, known as Bhava Samadhi, a form rarely seen elsewhere.",
+        "Local tradition connects the temple with the devotion of King Bhadrasen and the legends associated with Lord Hanuman. The temple architecture also carries a mix of North Indian and South Indian influences, and it remains an important stop on the Khultabad–Ellora pilgrimage circuit."
       ],
-      "bestTime": "October to February",
-      "timingsOpen": "08:30",
-      "timingsClose": "17:30",
-      "entryFee": "Entry fee may vary",
-      "nearbyPlaces": [
-        "Ellora Caves",
-        "Grishneshwar Temple",
-        "Daultabad Fort"
-      ],
-      "slug": "bibi-ka-makbara"
-    },
-    {
-      "id": 13,
-      "name": "Ahilyabai Holkar Shivkund",
-      "description": "A historic stepped water tank built during the Ahilyabai Holkar era, known for its stone architecture, ghats and calm spiritual atmosphere near Ellora.",
-      "distance": "Within 1 km",
-      "distanceKm": 1,
-      "image": "/images/ahilyabai-holkar-shivkund.png",
-      "category": "Heritage",
       "highlights": [
-        "Historic stepped water tank",
-        "Ahilyabai Holkar era stone architecture",
-        "Peaceful ghats and shrines",
-        "Short walk from the hotel"
+        "Rare reclining idol of Lord Hanuman",
+        "Bhava Samadhi form of the deity",
+        "Legends of King Bhadrasen",
+        "Blend of North and South Indian temple styles"
+      ],
+      "whyVisit": [
+        "Unique form of Lord Hanuman",
+        "Important regional pilgrimage destination",
+        "Distinctive temple architecture and local traditions"
       ],
       "bestTime": "Year-round",
-      "timingsOpen": "06:00",
-      "timingsClose": "20:00",
-      "entryFee": "Free",
       "nearbyPlaces": [
-        "Grishneshwar Temple",
+        "Ellora Caves",
+        "Grishneshwar Jyotirlinga Temple",
+        "Daulatabad Fort"
+      ],
+      "links": [
+        { "label": "Wikipedia – Bhadra Maruti Temple", "url": "https://en.wikipedia.org/wiki/Bhadra_Maruti_Temple" }
+      ],
+      "galleryImages": [
+        "/images/bhadra-maruti-temple.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Maheshmal Balaji Temple",
+      "description": "A Lord Venkatesha temple set in the green hills of Maheshmal, often called the Tirupati of Marathwada.",
+      "image": "/images/balaji-temple.png",
+      "category": "Religious",
+      "slug": "maheshmal-balaji-temple",
+      "about": [
+        "Maheshmal Balaji Temple is dedicated to Lord Venkatesha and stands in the scenic hill area of Maheshmal, which is often described as the Tirupati of Marathwada.",
+        "The main deity is described as a replica of the deity at Tirupati Balaji, and worship here follows Tirupati-style traditions. Maheshmal itself is known for its greenery, cooler climate and views over the surrounding landscape, so a visit combines pilgrimage with a hill-country outing."
+      ],
+      "highlights": [
+        "Lord Venkatesha / Balaji temple",
+        "Tirupati-style worship traditions",
+        "Green hill setting with cool weather",
+        "Scenic views over the surrounding hills"
+      ],
+      "whyVisit": [
+        "Peaceful pilgrimage experience",
+        "Hill-station atmosphere and scenery",
+        "Especially beautiful during the monsoon"
+      ],
+      "bestTime": "October to March",
+      "nearbyPlaces": [
+        "Daulatabad Fort",
+        "Bhadra Maruti Temple",
+        "Ellora Caves"
+      ],
+      "links": [
+        { "label": "Wikipedia – Mhaismal", "url": "https://en.wikipedia.org/wiki/Mhaismal" }
+      ],
+      "galleryImages": [
+        "/images/balaji-temple.png",
+        "/images/mhaismal-hill-station.png"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Daulatabad Fort / Devgiri Fort",
+      "description": "A medieval hill fortress famed for its defences, Chand Minar and panoramic Deccan views.",
+      "image": "/images/daulatabad-fort.png",
+      "category": "Historical",
+      "slug": "daulatabad-fort",
+      "about": [
+        "Daulatabad Fort, historically known as Devagiri, is one of the most impressive medieval fortresses in Maharashtra, built around a steep conical hill. Its original development is associated with the Yadava ruler Bhillama V in the 12th century, and in 1327 Muhammad bin Tughluq famously ordered the shifting of his capital from Delhi to Daulatabad.",
+        "The fort is remarkable for its defensive design: narrow winding approaches, massive walls, moats, gates, rock-cut passages and steep slopes that together made it extremely difficult to capture. Chand Minar, Chini Mahal, the Baradari and the dark Andheri Passage are among its best known features."
+      ],
+      "highlights": [
+        "Medieval hill fortress on a conical hill",
+        "Chand Minar and Chini Mahal",
+        "The Andheri Passage and rock-cut defences",
+        "Panoramic views over the Deccan"
+      ],
+      "whyVisit": [
+        "Outstanding medieval military architecture",
+        "A memorable climb with sweeping views",
+        "Rich layers of Yadava and Tughluq history"
+      ],
+      "bestTime": "October to February",
+      "nearbyPlaces": [
+        "Ellora Caves",
+        "Bhadra Maruti Temple",
+        "Bibi Ka Maqbara"
+      ],
+      "links": [
+        { "label": "Wikipedia – Daulatabad Fort", "url": "https://en.wikipedia.org/wiki/Daulatabad_Fort" }
+      ],
+      "galleryImages": [
+        "/images/daulatabad-fort.png"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Panchakki – Water Mill",
+      "description": "A medieval water mill in Chhatrapati Sambhajinagar, powered by water carried from a distant source.",
+      "image": "/images/panchakki.png",
+      "category": "Historical",
+      "slug": "panchakki",
+      "about": [
+        "Panchakki is a historic water mill in Chhatrapati Sambhajinagar, part of the complex associated with the Sufi saint Baba Shah Musafir. It is an excellent example of medieval hydraulic engineering.",
+        "An underground conduit brought water from a distant source into a reservoir; water falling into the cistern generated the power that drove the mill. The complex also includes a large reservoir, fountains, garden areas and tombs linked to the Sufi tradition of the site."
+      ],
+      "highlights": [
+        "Medieval water-powered mill",
+        "Underground water conduit and cistern",
+        "Large reservoir and fountains",
+        "Sufi dargah complex and gardens"
+      ],
+      "whyVisit": [
+        "Unique medieval engineering",
+        "Historic architecture and Sufi heritage",
+        "Calm, shaded surroundings in the city"
+      ],
+      "bestTime": "October to February",
+      "nearbyPlaces": [
+        "Bibi Ka Maqbara",
+        "Daulatabad Fort",
+        "Ellora Caves"
+      ],
+      "links": [
+        { "label": "Wikipedia – Panchakki", "url": "https://en.wikipedia.org/wiki/Panchakki" }
+      ],
+      "galleryImages": [
+        "/images/panchakki.png"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Shri Vishwakarma Teerth Dham – Giant Shivling, Verul",
+      "description": "A distinctive modern Shiva temple at Verul built in the form of a giant Shivling.",
+      "image": "/images/vishwakarma-temple.png",
+      "category": "Religious",
+      "slug": "vishwakarma-teerth-dham",
+      "about": [
+        "Shri Vishwakarma Teerth Dham at Verul is a distinctive modern Shiva pilgrimage site near the Ellora and Grishneshwar area, developed as a large temple complex in the shape of a Shivling.",
+        "The complex also incorporates representations of the twelve Jyotirlingas, and its design combines traditional Shiva symbolism with modern temple architecture, which makes it a popular stop for visitors touring Verul."
+      ],
+      "highlights": [
+        "Temple built in the form of a giant Shivling",
+        "Representations of the twelve Jyotirlingas",
+        "Modern religious architecture",
+        "A striking spot for photographs"
+      ],
+      "whyVisit": [
+        "A unique modern Shiva temple",
+        "Peaceful devotional atmosphere",
+        "Close to the major heritage sites of Verul"
+      ],
+      "bestTime": "Year-round",
+      "nearbyPlaces": [
+        "Grishneshwar Jyotirlinga Temple",
+        "Ellora Caves",
+        "Ahilyabai Holkar Shivkund"
+      ],
+      "links": [],
+      "galleryImages": [
+        "/images/vishwakarma-temple.png",
+        "/images/108-feet-mahadev-shivling.png"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Bibi Ka Maqbara",
+      "description": "The Mughal mausoleum inspired by the Taj Mahal, known as the Mini Taj of the Deccan.",
+      "image": "/images/bibi-ka-maqbara.png",
+      "category": "Historical",
+      "slug": "bibi-ka-maqbara",
+      "about": [
+        "Bibi Ka Maqbara is the iconic Mughal-era monument of Chhatrapati Sambhajinagar, built as the mausoleum of Rabia-ud-Durrani (Dilras Banu Begum), wife of the emperor Aurangzeb.",
+        "Its design was inspired by the Taj Mahal at Agra, which is why it is popularly known as the Mini Taj of the Deccan. The large central dome, four minarets, ornamental detailing and landscaped gardens make it one of the most recognisable landmarks of the region."
+      ],
+      "highlights": [
+        "Mughal mausoleum of Rabia-ud-Durrani",
+        "Design inspired by the Taj Mahal",
+        "Central dome and four minarets",
+        "Ornamental detailing and landscaped gardens"
+      ],
+      "whyVisit": [
+        "Mughal architecture and history",
+        "One of the most photographed landmarks of the region",
+        "Well worth a half-day heritage visit"
+      ],
+      "bestTime": "October to February",
+      "nearbyPlaces": [
+        "Panchakki",
+        "Daulatabad Fort",
+        "Ellora Caves"
+      ],
+      "links": [
+        { "label": "Maharashtra Tourism – Bibi Ka Maqbara", "url": "https://www.maharashtratourism.gov.in/destination/bibi-ka-maqbara" },
+        { "label": "Wikipedia – Bibi Ka Maqbara", "url": "https://en.wikipedia.org/wiki/Bibi_Ka_Maqbara" }
+      ],
+      "galleryImages": [
+        "/images/bibi-ka-maqbara.png"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Ahilyabai Holkar Shivkund",
+      "description": "A historic stepped water tank near Ellora with stone ghats and a calm spiritual atmosphere.",
+      "image": "/images/ahilyabai-holkar-shivkund.png",
+      "category": "Heritage",
+      "slug": "ahilyabai-holkar-shivkund",
+      "about": [
+        "Ahilyabai Holkar Shivkund is a historic stepped water tank associated with the era of Ahilyabai Holkar, whose patronage also shaped the nearby Grishneshwar Temple.",
+        "The kund is known for its stone architecture, stepped ghats and small shrines around the water, and it offers a quiet pause between visits to the larger heritage sites of Verul and Ellora."
+      ],
+      "highlights": [
+        "Historic stepped water tank",
+        "Stone architecture of the Ahilyabai Holkar era",
+        "Peaceful ghats and small shrines",
+        "Very close to Grishneshwar and Ellora"
+      ],
+      "whyVisit": [
+        "A calm heritage stop away from the crowds",
+        "Traditional stepped-tank architecture",
+        "Easy to combine with Grishneshwar Temple"
+      ],
+      "bestTime": "Year-round",
+      "nearbyPlaces": [
+        "Grishneshwar Jyotirlinga Temple",
         "Ellora Caves",
         "Kailasa Temple"
       ],
-      "slug": "ahilyabai-holkar-shivkund",
+      "links": [],
       "galleryImages": [
         "/images/ahilyabai-holkar-shivkund.png"
       ]

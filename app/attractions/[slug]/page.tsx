@@ -5,25 +5,28 @@ import Image from 'next/image';
 import { useParams } from 'next/navigation';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { FiMapPin, FiClock, FiDollarSign, FiArrowLeft } from 'react-icons/fi';
+import { FiMapPin, FiArrowLeft, FiExternalLink } from 'react-icons/fi';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+interface AttractionLink {
+  label: string;
+  url: string;
+}
 
 interface Attraction {
   id: number;
   name: string;
   description: string;
-  distance: string;
-  distanceKm: number;
   image: string;
   category: string;
+  about: string[];
   highlights: string[];
+  whyVisit: string[];
   bestTime: string;
-  timingsOpen: string;
-  timingsClose: string;
-  entryFee: string;
   nearbyPlaces: string[];
   slug: string;
+  links?: AttractionLink[];
   galleryImages?: string[];
 }
 
@@ -81,7 +84,7 @@ export default function AttractionPage({ params: { slug } }: { params: { slug: s
             </h1>
             <div className="flex items-center justify-center gap-2 mt-4 text-luxury-gold">
               <FiMapPin />
-              <span>{attraction.distance} from Hotel</span>
+              <span>{attraction.category}</span>
             </div>
           </div>
         </div>
@@ -107,27 +110,31 @@ export default function AttractionPage({ params: { slug } }: { params: { slug: s
               viewport={{ once: true }}
             >
               <h2 className="text-3xl font-bold text-luxury-gold mb-4">About</h2>
+              {attraction.about.map((paragraph, idx) => (
+                <p key={idx} className="text-lg text-luxury-ivory opacity-80 leading-relaxed mb-4">
+                  {paragraph}
+                </p>
+              ))}
               <p className="text-lg text-luxury-ivory opacity-80 leading-relaxed">
-                {attraction.description}
-              </p>
-              <p className="text-lg text-luxury-ivory opacity-80 leading-relaxed mt-4">
                 Staying at Hotel Grand Konark Ellora makes it easy to plan a calm, heritage-rich day around this landmark with minimal travel and maximum comfort.
               </p>
-              {attraction.slug === 'kailasa-temple' && (
-                <p className="text-lg text-luxury-ivory opacity-80 leading-relaxed mt-4">
-                  The temple is widely regarded as one of the most remarkable rock-cut monuments in the world and is associated with the Rashtrakuta period, with its architecture drawing from earlier Pallava and Chalukya traditions.
-                </p>
-              )}
-              {attraction.slug === 'grishneshwar-temple' && (
-                <p className="text-lg text-luxury-ivory opacity-80 leading-relaxed mt-4">
-                  Ghrishneshwar is one of the twelve Jyotirlingas and remains an active pilgrimage destination known for its spiritual importance and annual festival crowds.
-                </p>
-              )}
-              {attraction.slug === 'bhadra-maruti-temple' && (
-                <p className="text-lg text-luxury-ivory opacity-80 leading-relaxed mt-4">
-                  The temple is especially loved for its reclining idol of Hanuman and its long-standing role as a local pilgrimage site in the Khuldabad region.
-                </p>
-              )}
+            </motion.div>
+
+            {/* Why Visit */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+            >
+              <h2 className="text-3xl font-bold text-luxury-gold mb-4">Why Visit</h2>
+              <ul className="space-y-3">
+                {attraction.whyVisit.map((reason, idx) => (
+                  <li key={idx} className="flex items-start gap-3 text-luxury-ivory opacity-80">
+                    <div className="w-2 h-2 bg-luxury-gold rounded-full mt-2 flex-shrink-0" />
+                    {reason}
+                  </li>
+                ))}
+              </ul>
             </motion.div>
 
             {/* Highlights */}
@@ -181,6 +188,32 @@ export default function AttractionPage({ params: { slug } }: { params: { slug: s
                 ))}
               </div>
             </motion.div>
+
+            {/* More Information */}
+            {attraction.links && attraction.links.length > 0 && (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+              >
+                <h2 className="text-3xl font-bold text-luxury-gold mb-4">More Information</h2>
+                <ul className="space-y-2">
+                  {attraction.links.map((link) => (
+                    <li key={link.url}>
+                      <a
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 text-luxury-gold hover:text-luxury-gold-light transition-colors"
+                      >
+                        {link.label}
+                        <FiExternalLink />
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </motion.div>
+            )}
           </div>
 
           {/* Sidebar */}
@@ -195,27 +228,9 @@ export default function AttractionPage({ params: { slug } }: { params: { slug: s
               <div>
                 <h3 className="text-luxury-gold font-bold mb-2 flex items-center gap-2">
                   <FiMapPin />
-                  Distance
+                  Category
                 </h3>
-                <p className="text-luxury-ivory opacity-80">{attraction.distance}</p>
-              </div>
-
-              <div>
-                <h3 className="text-luxury-gold font-bold mb-2 flex items-center gap-2">
-                  <FiClock />
-                  Timings
-                </h3>
-                <p className="text-luxury-ivory opacity-80">
-                  {attraction.timingsOpen} - {attraction.timingsClose}
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-luxury-gold font-bold mb-2 flex items-center gap-2">
-                  <FiDollarSign />
-                  Entry Fee
-                </h3>
-                <p className="text-luxury-ivory opacity-80">{attraction.entryFee}</p>
+                <p className="text-luxury-ivory opacity-80">{attraction.category}</p>
               </div>
 
               <div>
