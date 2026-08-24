@@ -107,18 +107,19 @@ export default function Hero({ onBookNow }: HeroProps) {
       </div>
 
       {/* Scroll Indicator */}
-      <motion.div
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-10"
-        animate={{ y: [0, 10, 0] }}
-        transition={{ duration: 2, repeat: Infinity }}
-      >
-        <div className="flex flex-col items-center gap-2">
-          <p className="text-luxury-gold text-sm uppercase tracking-wider">Scroll to Explore</p>
-          <div className="w-6 h-10 border-2 border-luxury-gold rounded-full flex justify-center">
-            <div className="w-1 h-2 bg-luxury-gold rounded-full mt-2 animate-bounce" />
+      <div className="absolute bottom-10 inset-x-0 flex justify-center z-10">
+        <motion.div
+          animate={{ y: [0, 10, 0] }}
+          transition={{ duration: 2, repeat: Infinity }}
+        >
+          <div className="flex flex-col items-center gap-2">
+            <p className="text-luxury-gold text-sm uppercase tracking-wider">Scroll to Explore</p>
+            <div className="w-6 h-10 border-2 border-luxury-gold rounded-full flex justify-center">
+              <div className="w-1 h-2 bg-luxury-gold rounded-full mt-2 animate-bounce" />
+            </div>
           </div>
-        </div>
-      </motion.div>
+        </motion.div>
+      </div>
     </section>
   );
 }

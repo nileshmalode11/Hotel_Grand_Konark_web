@@ -9,7 +9,6 @@ interface Attraction {
   id: number;
   name: string;
   description: string;
-  distance: string;
   image: string;
   category: string;
   slug: string;
@@ -63,37 +62,41 @@ export default function AttractionGrid() {
               <Link href={`/attractions/${attraction.slug}`} key={attraction.id}>
                 <motion.div
                   variants={itemVariants}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, margin: '-100px' }}
                   className="glass-effect rounded-lg overflow-hidden cursor-pointer group"
                   whileHover={{ y: -10 }}
                 >
                   {/* Image */}
-                  <div className="relative h-48 bg-gradient-gold opacity-20 overflow-hidden">
-                    <Image
-                      src={attraction.image || '/images/hotel-outer-view.jpeg'}
-                      alt={attraction.name}
-                      fill
-                      className="object-cover"
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-luxury-charcoal to-transparent z-10" />
+                  <div className="relative h-48 bg-luxury-charcoal overflow-hidden">
+                    {attraction.image ? (
+                      <Image
+                        src={attraction.image}
+                        alt={attraction.name}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 33vw"
+                      />
+                    ) : (
+                      <p className="absolute inset-0 flex items-center justify-center text-luxury-gold opacity-50">
+                        Photo coming soon
+                      </p>
+                    )}
+                    <div className="absolute inset-0 bg-gradient-to-t from-luxury-charcoal/80 to-transparent z-10" />
                   </div>
 
                   {/* Content */}
                   <div className="p-6">
-                    <div className="flex justify-between items-start mb-3">
-                      <div>
-                        <h3 className="text-lg font-bold mb-1">{attraction.name}</h3>
-                        <p className="text-sm text-luxury-gold">{attraction.category}</p>
-                      </div>
-                      <span className="text-sm text-luxury-ivory opacity-70 bg-luxury-charcoal px-2 py-1 rounded">
-                        {attraction.distance}
-                      </span>
+                    <div className="mb-3">
+                      <h3 className="text-lg font-bold mb-1">{attraction.name}</h3>
+                      <p className="text-sm text-luxury-gold">{attraction.category}</p>
                     </div>
                     <p className="text-sm text-luxury-ivory opacity-80 line-clamp-2 mb-4">
                       {attraction.description}
                     </p>
                     <button className="btn-ghost text-sm group-hover:text-luxury-gold-light">
-                      Learn More →
+                      Read More →
                     </button>
                   </div>
                 </motion.div>
